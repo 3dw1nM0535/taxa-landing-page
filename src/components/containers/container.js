@@ -49,9 +49,9 @@ class DesktopContainer extends Component {
                   <Label horizontal color='violet'>Beta</Label>
                 </Menu.Item>
                 <Menu.Item as='a' href='/guides/' active={location.pathname === '/guides/'}>Guides</Menu.Item>
-                <Menu.Item as='a' target='_blank' rel='noopener noreferrer'>Our vision</Menu.Item>
+                <Menu.Item as='a' href='https://medium.com/@workockmoses/decentralized-and-accountable-farming-on-the-blockchain-302c830086ff?sk=3fdb7c860014c4795a21d7a8469c672d' target='_blank' rel='noopener noreferrer'>Our vision</Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' color='violet' style={{ marginLeft: '0.5em' }}>
+                  <Button as='a' href='https://taxa-poc.netlify.app/' target='_blank' rel='noopener noreferrer' color='violet' style={{ marginLeft: '0.5em' }}>
                     Launch PoC App 
                   </Button>
                 </Menu.Item>
@@ -100,7 +100,7 @@ class MobileContainer extends Component {
               <Label horizontal color='violet'>Beta</Label>
             </Menu.Item>
             <Menu.Item as='a' href='/guides/' active={location.pathname === '/guides/'}>Guides</Menu.Item>
-            <Menu.Item as='a' target='_blank' rel='noopener noreferrer'>Our vision</Menu.Item>
+            <Menu.Item as='a' href='https://medium.com/@workockmoses/decentralized-and-accountable-farming-on-the-blockchain-302c830086ff?sk=3fdb7c860014c4795a21d7a8469c672d' target='_blank' rel='noopener noreferrer'>Our vision</Menu.Item>
           </Sidebar>
 
           <Sidebar.Pusher dimmed={sidebarOpened}>
@@ -114,7 +114,7 @@ class MobileContainer extends Component {
                     <Icon name='sidebar' color='black' />
                   </Menu.Item>
                   <Menu.Item position='right'>
-                    <Button as='a' color='violet' style={{ marginLeft: '0.5em' }}>
+                    <Button as='a' href='https://taxa-poc.netlify.app/' target='_blank' rel='noopener noreferrer' color='violet' style={{ marginLeft: '0.5em' }}>
                       Launch PoC App
                     </Button>
                   </Menu.Item>

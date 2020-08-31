@@ -28,6 +28,10 @@ export function HomePage ({mobile}) {
             <Button
               style={{ marginTop: '2.5em' }}
               color='violet'
+              as='a'
+              href='https://taxa-poc.netlify.app/'
+              rel='noreferrer noopener'
+              target='_blank'
               size='huge'
             >
               Launch PoC App
@@ -110,6 +114,9 @@ export function HomePage ({mobile}) {
               color='violet'
               size='large'
               as='a'
+              href='https://taxa-poc.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Launch PoC App
               <Icon name='right arrow' />

@@ -23,7 +23,7 @@ export default class GuidesPage extends React.Component {
     const { activeIndex } = this.state
 
     return (
-      <Grid centered stackable>
+      <Grid style={{ padding: '2em' }} centered stackable>
         <Grid.Row>
           <Accordion styled>
             <Accordion.Title
@@ -79,8 +79,8 @@ export default class GuidesPage extends React.Component {
               Where can I get Ethereum; the digital curreny?
             </Accordion.Title>
             <Accordion.Content active={activeIndex === 3}>
-              <p style={{ fontSize: '1em', textAlign: 'left' }}> - SINCE THIS IS A BETA VERSION, WE HIGHLY DISCOURAGE USING REAL ETHER! HOWEVER, WE CAN HELP YOU GET FAKE ETHER TO TEST AGAINST THIS APPLICATION ON A TESTNETWORK. PROCEED TO <a href='https://faucet.metamask.io/' target='_blank' rel='noopener noreferrer'>Get Fake Ether</a>. If you are on mobile, browse to this site using MetaMask browser. Your request for fake ether will reflect in your wallet. DON'T BE GREEDY! </p>
-              <p style={{ fontSize: '1em', textAlign: 'left' }}> - Since taxa smart contracts are deployed to ropsten testnet, we encourage you to change your network to ropsten in order to get fake ether and interact with the smart contracts.</p>
+              <p style={{ fontSize: '1em', textAlign: 'left' }}> - SINCE THIS IS A BETA VERSION, WE HIGHLY DISCOURAGE USING REAL ETHER! HOWEVER, WE CAN HELP YOU GET FAKE ETHER TO TEST AGAINST THIS APPLICATION ON RINKEBY TEST NETWORK. PROCEED TO <a href='https://www.rinkeby.io/#faucet' target='_blank' rel='noopener noreferrer'>Get Fake Ether</a>. Your request for fake ether will reflect in your wallet. DON'T BE GREEDY! </p>
+              <p style={{ fontSize: '1em', textAlign: 'left' }}> - Since taxa smart contracts are deployed to rinkeby testnet, we encourage you to change your network to rinkeby in order to get fake ether and interact with the smart contracts.</p>
               <Image
                 src='https://ipfs.io/ipfs/QmWNzMM3ANkFyRrLYM5B8gxfthFswhWRm4h7qsNJmw885d'
                 size='medium'
